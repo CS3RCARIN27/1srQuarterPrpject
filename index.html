@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shop Wet Dog Food at Paws & Play</title>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>	
+    <style>
+        body {
+            padding: 0;
+            margin: 0; 
+            background-color: #F2E6D6;
+        }
+        #top-section {
+            background-color: #FCC0C5;
+            height: 80px;}
+        #header {
+            text-align: left;
+            font-family: 'Pacifico';font-size: 22px;
+            font-size: 36px;
+            color: #333;
+        }
+        #search-container {
+            text-align: center;
+            padding-top: 20px;
+        }
+        #search-bar {
+            position: absolute;
+            font-size: 20px;
+            width: 500px;
+            padding: 3px;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fpets%2Fg4531%2Fcutest-dog-breeds%2F&psig=AOvVaw2FcRm8pBIp8qwo3-e2JTAa&ust=1698157340398000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLism5qvjIIDFQAAAAAdAAAAABAE');
+            background-position: 10px center;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            background-size: 25px;
+            top: 25px;
+            left: 400px;
+            opacity: 0.7;
+        }
+        #categories {
+            position: absolute;
+            top: 80px;
+            left: 50px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        #categories ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        #categories ul li {
+            margin: 5px 0;
+        }
+        #cart-container {
+            position: absolute;
+            top: 30px;
+            right: 90px;
+            font-size: 18px;
+        }
+        #cart-image {
+            vertical-align: middle;
+            width: 24px;
+            height: 24px;
+        }
+      
+        #filter-box {
+            position: absolute;
+            top: 120px;
+            left: 350px;
+            width: 600px;
+            font-size: 30px;
+            background-color: #A0E0E4;
+            border: 1px solid black;
+            height: 50px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .filter-button {
+            background-color: white;
+            font-size: 15px;
+            font-weight: bold;
+            color: black;
+            border: 1px solid black;
+            margin: 5px;
+            padding: 8px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .selected {
+            background-color: white;
+            font-weight: bold;
+        }
+        .sort-label {
+            padding-left: 10px;
+        }
+        .item {
+            position: absolute;
+            text-align: center;
+        }
+        .item img {
+            width: 64mm;
+            height: 85.6mm;
+            border: 3px solid black;
+        }
+        .item-description {
+            position: absolute;
+            left: 40px;
+            top: 340px;
+            text-align: left;
+        }
+        .item p {
+            font-size: 30px;
+            margin: 5px 0;
+        }
+		li:hover{
+			transition: .5s;
+			transform: scale(1.2);
+		}
+    </style>
+</head>
+<body>
+    <div id="top-section">
+        <div style="position: absolute; top: 30px; right: 250px; font-size: 18px;">
+            <a href="login.html">Login/Signup</a>
+        </div>
+        &nbsp;<div id="header" > &nbsp; &nbsp;Paws & Play</div>
+        <div id="cart-container">
+            <a href="Cart.html">
+                <img id="cart-image" src="https://www.iconpacks.net/icons/2/free-shopping-cart-icon-3045-thumb.png" alt="Cart">Cart
+            </a>
+        </div>
+    </div>
+        <div id="search-container">
+            <input type="text" id="search-bar" placeholder="Search...">
+        </div>
+        <div id="categories">
+            <h3>Categories</h3>
+            <ul>
+                <li>Pet Types</li>
+                <li>Life Stages</li>
+                <li>Brands</li>
+            </ul>
+        </div>
+        <div id="filter-box">
+            <p class="sort-label">Sort by:</p>
+            <button class="filter-button selected">Relevance</button>
+            <button class="filter-button">Top Sales</button>
+        </div>
+        
+        <div class="item" style="left: 310px; bottom: 110px;">
+            <figure>
+                <div class="item-description">
+                    <p>Brit Pate and Meat Salmon Grain-Free Dog Wet Food</p>
+                    <p>₱105.00</p>
+                </div>
+                <img src="https://www.petwarehouse.ph/9865/brit-pate-and-meat-salmon-grain-free-dog-wet-food.jpg" alt="Brit Pate Wet Dog Fodo">
+            </figure>
+        </div>
+
+        <div class="item" style="right: 380px; bottom: 110px;">
+            <figure>
+                <div class="item-description">
+                    <p>Natures Gift Gourmet Chicken and Duck</p>
+                    <p>₱450.00</p>
+                </div>
+                <img src="https://cdn.shopify.com/s/files/1/0386/4113/9843/files/10250131_Natures_Gift_Gourmet_Chicken_and_Duck_Dog_Tray_100g_lorikeet_480x480.jpg?v=1632719597" alt="Natures Gift Gourmet Chicken and Duck">
+            </figure>
+        </div>
+
+        <div class="item" style="right: 50px; bottom: 110px;">
+            <figure>
+                <div class="item-description">
+                 <p>Cesar Classic Terrine Mixed Selection Wet Dog Food 8x150g</p>
+                    <p>₱599.0</p>
+                </div>
+                <img src="https://www.uk.cesar.com/sites/g/files/fnmzdf3731/files/migrate-product-files/images/p9k13f7ed8pvmjbortou.png" alt="Cesar Wer Dog Food">
+            </figure>
+        </div>
+    </div>
+</body>
+</html>
